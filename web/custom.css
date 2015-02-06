@@ -16,6 +16,12 @@ body {
 	min-height: 100%;
 }
 
+.about h2 {
+	color: #48c6bb;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
 .fixed {
   position: fixed;
   width:100%;
@@ -40,7 +46,7 @@ table.center {
 
 h1 {
 	margin: 0;
-	padding: 0;
+	padding-top: 50px;
 	color: #48c6bb;
 	font-size: 46px;
 	font-weight: 700;
@@ -48,7 +54,7 @@ h1 {
 
 h2 {
 	color: #48c6bb;
-	font-size: 20px;
+	font-size: 36px;
 	margin-bottom: 30px;
 }
 
@@ -56,14 +62,11 @@ h3 {
 	font-size: 30px;
 }
 
-
 h4 {
 	margin: 0;
 	padding: 0;
-
 	color: #48c6bb;
 	font-size: 18px;
-	font-weight: 600;
 }
 
 p {
@@ -82,13 +85,7 @@ p {
 .col-05, .col-3, .col-5 {
 	position: relative;
 	float: left;
-
 	min-height: 1px;
-
-/*	padding-right: 15px;
-	padding-left: 15px;
-	*/
-
 	padding: 0;
 }
 
@@ -215,7 +212,7 @@ position: relative;
 }
 
 #section-details {
-	padding: 60px 0 100px 0;
+	padding-bottom:100px;
 	background: #eceff0;
 }
 
@@ -239,13 +236,12 @@ position: relative;
 
 #section-map {
 	margin: 0;
-	padding: 60px 0 0 0;
 	background: #eceff0;
 }
 
 #section-entry {
 	margin: -10px 0 0 0;
-
+	padding-bottom: 100px;
 	background: #48c6bb;
 }
 
@@ -454,14 +450,12 @@ ul.nav-links {
 
 
 /* POSTER */
-/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #section-poster {
 	z-index: -1;
 }
 
 
 /* ABOUT */
-/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #section-about h1,
 #section-about h2,
 #section-about h4 {
@@ -541,7 +535,7 @@ ul.nav-links {
 }
 
 .tab-links li.tab2 > a {
-	background: #3189c1;
+	background: #4d9cce;
 }
 
 .tab-links li.tab1.active > a {
@@ -554,7 +548,7 @@ ul.nav-links {
 .tab-links li.tab2.active > a {
 	font-weight: 600;
 
-    color: #3189c1;
+    color: #4d9cce;
 	background: #FFFFFF;
 }
 
@@ -582,25 +576,27 @@ ul.nav-links {
 }
 
 .tab-links li.tab2:before {
-    border-right: 20px solid #3189c1;
+    border-right: 20px solid #4d9cce;
 }
 
 
 
 /* TABS */
-/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 .tab-content {
-    padding: 40px;
-    margin: 0;
-
+	padding: 40px;
+	margin: 0;
 	width: 100%;
-
 	background: #FFFFFF;
 }
 
 .tab-content h2 {
 	padding: 0 0 20px 0;
-	/*background-color: #fffd66;*/
+}
+
+.tab-content span{
+	background: linear-gradient(transparent 70%, #fffe40 60%);
+	background-position-y: 30px;
 }
 
 .tab-content .icon > h3 {
@@ -678,7 +674,7 @@ ul.nav-links {
 #tab2 h2,
 #tab2 h3,
 #tab2 h4 {
-	color: #3189c1;
+	color: #4d9cce;
 }
 
 #tab2 h4 {

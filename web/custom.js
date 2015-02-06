@@ -1,3 +1,15 @@
+// tabs
+$(document).ready(function() {
+  $('.tab-links a').on('click', function(e)  {
+        var currentAttrValue = jQuery(this).attr('href');
+        // Show/Hide Tabs
+        $('.tabs ' + currentAttrValue).show().siblings().hide();
+        // Change/remove current tab to active
+        $(this).parent('li').addClass('active').siblings().removeClass('active');
+        e.preventDefault();
+    });
+});
+
 $(function(){
     var box = $("#navbar");
     var boxTop = box.offset().top;
@@ -19,7 +31,7 @@ $(function(){
       // 移動先を取得
       var target = $(href == "#" || href == "" ? 'html' : href);
       // 移動先を数値で取得
-      var position = target.offset().top - 80;
+      var position = target.offset().top - 70;
       // スムーススクロール
       $('body,html').animate({scrollTop:position}, speed, 'swing');
       return false;
@@ -35,21 +47,3 @@ $(function(){
       number: 30
     }, 1000);
 });
-
-// tabs
-$(document).ready(function() {
-    /*jQuery('.tabs .tab-links a').on('click', function(e)  {*/
-
-	$('.tab-links a').on('click', function(e)  {
-        var currentAttrValue = jQuery(this).attr('href');
-
-        // Show/Hide Tabs
-        $('.tabs ' + currentAttrValue).show().siblings().hide();
-
-        // Change/remove current tab to active
-        $(this).parent('li').addClass('active').siblings().removeClass('active');
-
-        e.preventDefault();
-    });
-});
-
