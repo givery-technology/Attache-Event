@@ -777,6 +777,7 @@ table.schedule tr td {
 
 
 table.info tr td:first-child {
+	padding:0;
 	width: 140px;
 	color: #000000;
 }
