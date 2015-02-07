@@ -12,7 +12,8 @@ body {
 }
 
 .wrapper {
-	position: relative;
+	position: relative;1
+
 	min-height: 100%;
 }
 
@@ -28,7 +29,6 @@ body {
   top: 0px;
   z-index: 9999;
 }
-
 
 .b {
 	border: 1px solid red;
@@ -239,6 +239,10 @@ position: relative;
 	background: #eceff0;
 }
 
+#section-map p {
+	padding-bottom:30px;
+}
+
 #section-entry {
 	margin: -10px 0 0 0;
 	padding-bottom: 100px;
@@ -259,9 +263,9 @@ position: relative;
 	background: #FFFFFF;
 }
 
-
-
-
+#footer h6{
+	font-size:16px;
+}
 /* TOPBAR */
 
 #topbar .logo {
@@ -472,10 +476,11 @@ ul.nav-links {
 
 #section-about .info {
 	padding: 60px 0 0 0;
-
 }
 
-
+#section-about p{
+	padding-top:50px;
+}
 
 /* TABS */
 
@@ -641,22 +646,17 @@ ul.nav-links {
 	text-align: left;
 }
 
-
-
 /* TAB 1 */
-/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #tab1 h2,
 #tab1 h3,
 #tab1 h4 {
 	color: #2EBA9B;
 }
 
-
 #tab1 img.arrow {
 	margin: 50px 0;
 	width: 60px;
 }
-
 
 #tab1 h4 {
 	color: #49c5b6;
@@ -664,13 +664,18 @@ ul.nav-links {
 	padding: 0 0 10px 0;
 }
 
-#tab1 .app {
+#tab1 p {
+	padding-bottom:30px;
+}
+
+#tab1 .container-app {
+	margin-top:50px;
 	padding: 40px 40px 0 40px;
 	background: #f5f7f6;
 }
 
 /* TAB 2 */
-/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 #tab2 h2,
 #tab2 h3,
 #tab2 h4 {
@@ -683,21 +688,29 @@ ul.nav-links {
 
 }
 
+#tab2 p {
+	padding-bottom:30px;
+}
+
 #tab2 img.arrow {
 	margin: 60px 5px;
 }
 
-#tab2 .app {
+#tab2 .container-app {
+	margin-top:50px;
 	padding: 0 40px 0 40px;
 	background: #f5f7f6;
 }
 
-#tab2 .app  h3 {
+#tab2 .container-app  h3 {
 	padding: 20px 0 0 0;
 }
 
+#tab2 .container-app  img {
+	margin: 20px 0;
+}
+
 /* SCHEDULE */
-/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 table.schedule {
 	padding: 0;
