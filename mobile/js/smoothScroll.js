@@ -1,20 +1,20 @@
 /*--------------------------------------------------------------------------*
- *  
+ *
  *  SmoothScroll JavaScript Library V2
- *  
- *  MIT-style license. 
- *  
- *  2007-2011 Kazuma Nishihata 
+ *
+ *  MIT-style license.
+ *
+ *  2007-2011 Kazuma Nishihata
  *  http://www.to-r.net
- *  
+ *
  *--------------------------------------------------------------------------*/
- 
+
 new function(){
 
 	var attr ="data-tor-smoothScroll";//for html5 , if you can't use html5 , this value change "class"
 	var attrPatt = /noSmooth/;
 	var d = document;//document short cut
-	
+
 	/*
 	 *add Event
 	  -------------------------------------------------*/
@@ -40,7 +40,7 @@ new function(){
 		}else{
 			return;
 		}
-		
+
 		//Move point
 		var end=e.offsetTop
 		var docHeight = d.documentElement.scrollHeight;
@@ -48,11 +48,11 @@ new function(){
 		if(docHeight-winHeight<end){
 			var end = docHeight-winHeight;
 		}
-		
+
 		//Current Point
 		var start=window.pageYOffset || d.documentElement.scrollTop || d.body.scrollTop || 0;
-		
-		
+
+
 		var flag=(end<start)?"up":"down";
 
 		function scrollMe(start,end,flag) {
@@ -73,11 +73,11 @@ new function(){
 				}
 				,10
 			);
-			
+
 		}
 
 		scrollMe(start,end,flag);
-		
+
 	}
 
 	/*
@@ -86,10 +86,9 @@ new function(){
 	addEvent(window,"load",function(){
 		var anchors = d.getElementsByTagName("a");
 		for(var i = 0 ,len=anchors.length; i<len ; i++){
-			if(!attrPatt.test(anchors[i].getAttribute(attr)) && 
+			if(!attrPatt.test(anchors[i].getAttribute(attr)) &&
 				anchors[i].href.replace(/\#[a-zA-Z0-9_]+/,"") == location.href.replace(/\#[a-zA-Z0-9_]+/,"")){
 				anchors[i].rel = anchors[i].href;
-				anchors[i].href = "javascript:void(0)";
 				anchors[i].onclick=function(){SmoothScroll(this)}
 			}
 		}
