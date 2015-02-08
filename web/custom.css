@@ -754,9 +754,8 @@ table.schedule tr td {
 
 #section-tabs .icon,
 #section-tabs .icon h3 {
+	width: 300px;
 	display: inline-block;
-	padding: 10px 20px;
-
 	vertical-align: middle;
 }
 
