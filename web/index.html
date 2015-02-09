@@ -50,6 +50,15 @@ if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('i
 	</script>
 </head>
 <body>
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 <!-- TOPBAR -->
 <div id="topbar" class="navbar" role="navigation">
 	<div class="logo pull-left">
@@ -650,7 +659,6 @@ if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('i
 </div>
 <div id="section-entry" class="section-padding">
 	<div class="container">
-
 		<div class="row">
 			<h1 class="special"><img src="images/entry_title.png"></h1>
 			<a href="http://bit.ly/1v4aJH7" class="button-entry">ENTRY<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></a>
@@ -658,6 +666,11 @@ if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('i
 	</div>
 </div>
 <footer id="footer">
+	<div class="share">
+		<div class="fb-share-button" data-href="https://event.attache-app.com/" data-layout="box_count"></div>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://event.attache-app.com" data-text="私はスマートに就活する派です。持ち物はスマフォとPCだけ!渋谷就活フェスタ" data-lang="ja" data-count="vertical" data-hashtags="渋谷就活フェスタ">ツイート</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	</div>
 	<h6 class="pull-left">Powered by givery</h6>
 	<h6 class="pull-right">Copyright &copy; 2015 givery, inc. All rights reserved.</h6>
 </footer>
