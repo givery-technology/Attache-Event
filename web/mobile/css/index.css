@@ -1,0 +1,511 @@
+/*--------------------
+ 共通
+--------------------*/
+#btn_entry {
+	background: #fffe40 url(../img/arrow_green.png) right 12px center no-repeat;
+	background-size: 10px 15px;
+}
+#btn_entry a {
+	padding: 20px 0;
+	height: 19px;
+	background: url(../img/entry_btn.png) center center no-repeat;
+	background-size: 76px 19px;
+	text-align: center;
+	display: block;
+	text-indent: -99999px;
+}
+#category_title {
+	padding: 35px 0 16px;
+	text-align: center;
+}
+h2 {
+	margin-top: 5px;
+	font-size: 13px;
+	color: #48c6bb;
+}
+
+
+/*--------------------
+ ヘッダー
+--------------------*/
+#header {
+	padding: 14px 12px 0;
+}
+#header p {
+	line-height:0;
+}
+
+
+
+/*--------------------
+ メニュー
+--------------------*/
+#menu_open {
+	width: 45px;
+	height: 45px;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+#overlay {
+	display: none;
+  width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	background: rgba(72,198,187,0.9);
+}
+#overlay ul {
+	margin-top: 60px;
+}
+#overlay a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 22px;
+	display: block;
+	width: 100%;
+	height: 2.3em;
+}
+#menu_close {
+	width: 45px;
+	height: 45px;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+
+/*--------------------
+ イントロ
+--------------------*/
+#intro {
+	margin: 40px 20px 30px;
+}
+#intro_title {
+	text-align: center;
+}
+#intro_title2 {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: bold;
+	color: #48c6bb;
+}
+#intro_text {
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+
+/*--------------------
+ メイン
+--------------------*/
+#main {
+	padding: 40px 20px;
+	background: #48c6bb url(../img/main_bg.jpg) bottom center repeat-x;
+	background-size: 1000px 260px;
+	text-align: center;
+	color: #fff;
+}
+#main_title1 {
+	font-size: 24px;
+	line-height: 1.5;
+}
+#main_title2 {
+	margin-top: 20px;
+}
+#main_venue {
+	margin-top: 8px;
+}
+#main_date {
+	margin-top: 20px;
+}
+
+
+/*--------------------
+ ABOUT
+--------------------*/
+#about {
+	text-align: center;
+}
+#about h3 {
+	font-size: 30px;
+	line-height: 1.3;
+}
+#about>div {
+	padding: 30px 20px 0;
+}
+.about_text1 {
+	margin-top: 12px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.about_text2 {
+	margin-top: 12px;
+	font-size: 12px;
+	color: #888888;
+	line-height: 1.5;
+}
+.about_img {
+	margin-top: 25px;
+}
+
+#about1 {
+	color: #48c6bb;
+	background: #fff;
+}
+
+#about2 {
+	min-height: 400px;
+	color: #ffffff;
+	background: #48c6bb url(../img/about_img2.png) center bottom no-repeat;
+	background-size: 1000px 315px;
+}
+
+#about3 {
+	color: #48c6bb;
+	background: #fff;
+}
+
+
+/*--------------------
+ DETAIL
+--------------------*/
+.detail_tab {
+	overflow: hidden;
+}
+.detail_tab li {
+	float: left;
+	width: 50%;
+	font-size: 16px;
+}
+.detail_tab a {
+	padding: 20px 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+#tab_business a {
+	color: #fff;
+	background: #48c6bb;
+}
+#tab_business.active a {
+	color: #48c6bb;
+	background: #fff;
+}
+#tab_engineer a {
+	color: #fff;
+	background: #4d9cce;
+}
+#tab_engineer.active a {
+	color: #4d9cce;
+	background: #fff;
+}
+.detail_box {
+	padding: 35px 20px 20px;
+	background: #fff;
+}
+
+.content_details > .detail_box {
+  display: none;
+}
+.content_details > .detail_box.active {
+  display: block;
+}
+
+.detail_lead {
+	margin-bottom: 15px;
+}
+
+#business_content h3 {
+	margin: 35px 0 15px;
+	color: #48c6bb;
+	font-size: 22px;
+	text-align: center;
+}
+#business_content h3:first-child {
+	margin-top: 0;
+}
+#business_content h3 span {
+	padding-bottom: 3px;
+	border-bottom: 3px solid #fffe40;
+}
+#business_content p {
+	font-size: 14px;
+}
+
+#business_content .flow_title {
+	margin-top: 1px;
+	padding: 7px;
+	background: #48c6bb url(../img/accordion_nav.png) right 10px top -75px no-repeat;
+	color: #fff;
+	font-weight: normal;
+}
+#business_content h4.active {
+	background: #48c6bb url(../img/accordion_nav.png) right 10px top 13px no-repeat;
+}
+#business_content .flow_detail {
+	font-size: 0.8em;
+	background: #f3f7f6;
+}
+#business_content .flow_text {
+	padding: 20px;
+}
+#business_content .timeline_team {
+	color: #48c6bb;
+	font-size: 12px;
+}
+#business_content .timeline_table {
+	margin: 10px 0 20px;
+}
+#business_content .timeline_table li {
+	padding: 7px 10px;
+	font-size: 14px;
+	color: #fff;
+}
+#business_content .timeline_table .odd {
+	background: #48c6bb;
+}
+#business_content .timeline_table .even {
+	background: #64dfcd;
+}
+#business_content #point {
+	width: 280px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#business_content #point li {
+	width: 130px;
+	float: left;
+}
+#business_content #point li:first-child {
+	margin-right: 20px;
+}
+#attache {
+	margin-top: 30px;
+	padding-top: 20px;
+	background: #f5f7f6;
+	text-align: center;
+}
+#attache_title {
+	padding: 0 20px;
+	font-size: 12px;
+	color: #48c6bb;
+}
+#attache_title2 {
+	margin: 15px 0;
+	padding: 0 20px;
+}
+#attache_text {
+	padding: 0 20px;
+	font-size: 12px;
+}
+#business_content h3 {
+	margin: 35px 0 15px;
+	color: #48c6bb;
+	font-size: 22px;
+	text-align: center;
+}
+#business_content h3:first-child {
+	margin-top: 0;
+}
+#business_content h3 span {
+	padding-bottom: 3px;
+	border-bottom: 3px solid #fffe40;
+}
+#business_content p {
+	font-size: 14px;
+}
+
+#engineer_content .flow_title {
+	margin-top: 1px;
+	padding: 7px;
+	background: #4d9cce url(../img/accordion_nav.png) right 10px top -75px no-repeat;
+	color: #fff;
+	font-weight: normal;
+}
+#engineer_content h4.active {
+	background: #4d9cce url(../img/accordion_nav.png) right 10px top 13px no-repeat;
+}
+#engineer_content .flow_detail {
+	font-size: 0.8em;
+	background: #f3f7f6;
+}
+#engineer_content .flow_text {
+	padding: 20px;
+}
+#engineer_content .timeline_team {
+	color: #4d9cce;
+	font-size: 12px;
+}
+#engineer_content .timeline_table {
+	margin: 10px 0 20px;
+}
+#engineer_content .timeline_table li {
+	padding: 7px 10px;
+	font-size: 14px;
+	color: #fff;
+}
+#engineer_content .timeline_table span {
+	font-size: 12px;
+}
+#engineer_content .timeline_table .odd {
+	background: #4d9cce;
+}
+#engineer_content .timeline_table .even {
+	background: #58b3ed;
+}
+#engineer_content #point {
+	width: 240px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#engineer_content #point li {
+	margin-bottom: 10px;
+}
+#engineer_content #point li:first-child {
+	margin-right: 20px;
+}
+#cody {
+	margin-top: 30px;
+	padding-top: 20px;
+	background: #f5f7f6;
+	text-align: center;
+}
+#cody_title {
+	padding: 0 20px;
+	font-size: 12px;
+	color: #4d9cce;
+}
+#cody_title2 {
+	margin: 15px 0;
+	padding: 0 20px;
+}
+#cody_text {
+	padding: 0 20px;
+	font-size: 12px;
+}
+#engineer_content h3 {
+	margin: 35px 0 15px;
+	color: #4d9cce;
+	font-size: 22px;
+	text-align: center;
+}
+#engineer_content h3:first-child {
+	margin-top: 0;
+}
+#engineer_content h3 span {
+	padding-bottom: 3px;
+	border-bottom: 3px solid #fffe40;
+}
+#engineer_content p {
+	font-size: 14px;
+}
+
+
+/*--------------------
+ Q&A
+--------------------*/
+#qa_list {
+	text-align: left;
+	font-size: 14px;
+}
+.qa_title {
+	margin-top: 1px;
+	padding: 7px;
+	background: #48c6bb url(../img/accordion_nav.png) right 10px top -75px no-repeat;
+	color: #fff;
+	font-weight: normal;
+}
+#qa h4.active {
+	background: #48c6bb url(../img/accordion_nav.png) right 10px top 13px no-repeat;
+}
+.qa_detail {
+	padding: 18px 20px;
+	font-size: 0.8em;
+	background: #fff;
+	font-size: 14px;
+}
+
+
+/*--------------------
+ INFO
+--------------------*/
+#info {
+	background: #fff;
+}
+#info_wrapper {
+	padding: 0 20px 30px;
+}
+#info_table {
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+	border-bottom: 1px solid #e0e4e5;
+
+}
+#info_table th,td {
+	padding: 10px 0;
+	border-top: 1px solid #e0e4e5;
+	line-height: 1.5;
+	font-size: 14px;
+	vertical-align: top;
+}
+#info_table th {
+	width: 6em;
+}
+
+
+/*--------------------
+ ACCESS
+--------------------*/
+#access {
+	text-align: center;
+	font-size: 14px;
+}
+#access_map {
+	margin-top: 20px;
+	height: 220px;
+	background: #888;
+}
+
+
+/*--------------------
+ ENTRY
+--------------------*/
+#entry {
+	padding: 30px 0;
+	background: #48c6bb;
+	text-align: center;
+}
+#entry_title {
+	margin-bottom: 20px;
+}
+#wanted {
+		margin-top: 20px;
+		font-size: 12px;
+}
+#wanted a {
+	color: #fff;
+}
+
+
+/*--------------------
+ フッター
+--------------------*/
+#footer {
+	padding: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+
+
+
