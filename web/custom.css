@@ -45,6 +45,7 @@ table.center {
 }
 
 h1 {
+	paddin-top:50px;
 	margin: 0;
 	color: #48c6bb;
 	font-size: 46px;
@@ -188,7 +189,9 @@ p {
 	background: #eceff0;
 	background-size: cover;
 }
-
+#section-header h1{
+	padding:0;
+}
 #navbar {
 	padding: 0;
 	height: 80px;
