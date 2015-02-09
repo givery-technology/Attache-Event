@@ -1,6 +1,7 @@
 /*--------------------
  共通
 --------------------*/
+
 #btn_entry {
 	background: #fffe40 url(../img/arrow_green.png) right 12px center no-repeat;
 	background-size: 10px 15px;
@@ -495,7 +496,6 @@ h2 {
 	color: #fff;
 }
 
-
 /*--------------------
  フッター
 --------------------*/
@@ -505,7 +505,8 @@ h2 {
 	font-size: 12px;
 }
 
-
-
+.fb_iframe_widget span {
+vertical-align: baseline !important;
+}
 
 
