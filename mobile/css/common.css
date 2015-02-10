@@ -55,12 +55,6 @@ img {
 	vertical-align: bottom;
 }
 
-
-
-
-
-
-
-
-
-
+.fb_iframe_widget span {
+vertical-align: baseline !important;
+}
