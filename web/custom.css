@@ -90,8 +90,14 @@ p {
 }
 
 .col-5 {
-	width: 20%;
+	background-color: #FFFFFF;
 }
+
+.col-5 img {
+	max-width: 170px;
+	max-height: 170px;
+}
+
 .col-3 {
 	width: 30%;
 }
@@ -261,6 +267,28 @@ position: relative;
 #section-sponsors {
 	background: #48c6bb;
 }
+
+#section-sponsors .content {
+	float:left;
+	margin:20px;
+}
+
+#section-sponsors .icon {
+	background-color: #FFFFFF;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  height: 190px;
+  width: 190px;
+  padding: 5px;
+  line-height: 0;
+}
+
+#section-sponsors img {
+	padding:20px;
+	width:180px;
+}
+
 
 #section-info {
 }
