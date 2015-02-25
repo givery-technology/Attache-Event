@@ -175,10 +175,6 @@ p {
 	min-width: 1000px !important;
 }
 
-.section-title {
-	padding: 0 0 40px 0;
-}
-
 #topbar {
 	padding: 15px;
 	margin: 0;
@@ -229,6 +225,27 @@ position: relative;
 	font-size: 24px;
 	padding:20px 0;
 }
+
+#section-details .content {
+	width:1200px;
+	height:400px;
+}
+
+.panelist {
+	width: 250px;
+	float:left;
+	margin-right: 30px;
+}
+
+.panelist img {
+	width:250px;
+}
+
+.panelist p,h4{
+	margin:20px 0;
+
+}
+
 
 .container-app {
 	margin-top:50px;
