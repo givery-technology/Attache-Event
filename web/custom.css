@@ -238,6 +238,9 @@ position: relative;
 }
 
 .panelist img {
+	-webkit-filter: grayscale(1); /* Webkit */
+	filter: gray; /* IE6-9 */
+	filter: grayscale(1); /* W3C */
 	width:250px;
 }
 
