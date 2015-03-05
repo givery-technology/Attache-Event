@@ -220,7 +220,6 @@ a.container-app {
 	background: #FFFFFF;
 }
 #navbar .container{
-width: 1200px;
 margin: 0 auto;
 position: relative;
 }
@@ -246,7 +245,6 @@ position: relative;
 }
 
 #section-details .content {
-	width:1200px;
 	height:400px;
 }
 
