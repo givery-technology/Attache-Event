@@ -75,6 +75,13 @@ p {
 	line-height: 150%;
 }
 
+a.container-app {
+	margin-top:50px;
+	padding: 40px 40px 0 40px;
+  border-width: 5px;
+  border-color: #FFFFFF;
+  border-style: solid;
+}
 
 .highlight {
 	color: #fffd5c;
@@ -156,6 +163,14 @@ p {
 	font-size: 25px;
 }
 
+.row .button-entry span.glyphicon {
+	position: absolute;
+	top: 14px;
+	right: 20px;
+	font-size: 20px;
+}
+
+
 
 /* SECTIONS */
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -196,6 +211,9 @@ p {
 #section-header h1{
 	padding:0;
 }
+
+
+
 #navbar {
 	padding: 0;
 	color: #48c6bb;
@@ -411,11 +429,24 @@ vertical-align: baseline !important;
 #section-header a {
 	position: absolute;
 	left: 50%;
-	bottom: 30px;
+	bottom: -50px;
 }
 #section-header a img{
 	width: 36px;
 }
+
+#section-header .row a {
+	text-align: center;
+	border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  width: 200px;
+  font-size: 20px;
+  position:relative;
+  left:0;
+  bottom:0;
+}
+
 
 h1.special {
 	color: #48c6bb;

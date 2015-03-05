@@ -14,6 +14,16 @@
 	display: block;
 	text-indent: -99999px;
 }
+#attache #btn_entry a {
+	padding: 20px 0;
+	height: 19px;
+	background: url(../img/entry_btn2.png) center center no-repeat;
+	background-size: 160px;
+	text-align: center;
+	display: block;
+	text-indent: -99999px;
+}
+
 #category_title {
 	padding: 35px 0 16px;
 	text-align: center;
