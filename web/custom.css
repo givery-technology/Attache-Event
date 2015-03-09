@@ -427,7 +427,7 @@ vertical-align: baseline !important;
 #section-header a {
 	position: absolute;
 	left: 50%;
-	bottom: -120px;
+	bottom: -50px;
 }
 #section-header a img{
 	width: 36px;
